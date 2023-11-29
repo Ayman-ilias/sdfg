@@ -1,0 +1,197 @@
+
+.services{
+    cursor: pointer;
+    color: #CFCFCF;
+}
+.terms{
+    cursor: pointer;
+    color: #CFCFCF;
+}
+.row.g-0 {
+    --bs-gutter-x: 0;
+}
+.newarr a {
+    text-decoration: none;
+    position: relative;
+    margin-right: 20px; 
+    color: black;
+    font-weight: 100; 
+    transition: text-decoration 0.3s, font-weight 0.3s;
+}
+.inamina{
+    margin-left: 30px;
+}
+
+.newarr a:focus {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.card {
+    border: none;
+}
+.img2{
+    margin: 0px 0px 0px 0px;
+}
+.card{
+    background-color: #EDEDED;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.img3{
+    margin: 0px -30px -30px 0px;
+}
+.custom-img-width {
+    margin-top: 80px;
+    /* padding-left: 150px; */
+    margin-left: 100px;
+    width: 400px;
+    object-fit: cover; 
+}
+
+.butto1 {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding:30px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.butto2{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius:10px;
+    font-size: 13px;
+    font-style: italic;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.price{
+  margin-left: 50px;
+  font-style: italic;
+  font-size: 25px;
+}
+.imgm{
+    width: 150px;
+
+}
+.shop-container{
+    gap: 0px;
+}
+.txtt{
+    padding-left: 200px;
+}
+.ip{
+    font-size: 50px;
+}
+.vv{
+    align-items: center;
+    justify-content: center;
+}
+
+.para{
+    font-size: 10px;
+}
+section{
+    background-image: url(./resources/bg.JPG);
+}
+.img1{
+    width: 50%;
+    margin: 100px -320px -320px 0px; 
+}
+.eleven img {
+    max-width: 100%;
+    height: auto;
+}
+.buttonn{
+    background-color: navy;
+    color: aliceblue;
+    width: 100px;
+    height: 55px;
+    font-size: medium;
+    border-radius: 20px;
+}
+/* .vv{
+    align-content: center;
+    justify-content: space-around;
+} */
+@media only screen and (max-width: 480px)
+{
+    .vv{
+        padding-left: 100px;
+        gap: 20px;
+    }
+    .img1{
+        width: 250px;
+        margin: 0px -350px -350px 0px;
+        
+    }
+    .txtt{
+        margin-top: 100px;
+        padding-left: 25px;
+    }
+    .buttonn{
+        border: hidden;
+    }
+    .para{
+        font-size: 10px;
+    }
+    .img4{
+        padding-top: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+    .img3{
+        margin: 0px 0px 0px 60px; 
+        width: 65%;
+    }
+    .butto1{
+        background-color: navy;
+        color: white;
+        border: none;
+        padding:10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .inamina{
+
+        margin-top: 200px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+    }
+    .eleven {
+        flex-direction: row;
+    }
+    .midd {
+        margin: 0 20px;
+        margin-top: -160px;
+    }
+    .samsung{
+        width: 60%;
+        margin: -30px 0px 0px -250px;
+        object-fit: cover;
+        height: auto;
+        object-position: center bottom;
+    }
+    .t-50{
+        width: 60%;
+        margin: -200px -250px 0px 0px;
+
+    }
+}
